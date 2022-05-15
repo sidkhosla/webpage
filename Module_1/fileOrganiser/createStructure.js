@@ -1,9 +1,9 @@
 let path = require("path");
 let fs = require("fs");
-let modules = ["Javascript", "Browser", "React", "Backend", "Git"];
+let modules = ["Javascript", "Browser", "React", "Backend", "SQL", "Git"];
 
 // path build
-let webDevDirPath = path.join(process.cwd(), "webdev");
+let webDevDirPath = path.join(__dirname, "webdev");
 
 // checking if the path exsist
 
