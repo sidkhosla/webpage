@@ -1,5 +1,5 @@
 // user defined modulespwe add ./
-let clientobj=require("./lib");
+let clientobj = require("./lib");
 console.log("I am client");
 // function call
 clientobj.fn();
